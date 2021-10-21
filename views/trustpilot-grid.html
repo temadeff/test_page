@@ -1,0 +1,30 @@
+<section id="trustpilot-grid"  [preRender]="false"
+(deferLoad)="showTrustGrid=true; activate();" id="trustpilot-grid">
+<div *ngIf="showTrustGrid" class="container">
+ <div class="row">
+   <div class="col-sm-12 reviews-text">
+     <h1 class="fw-bold lh-1 mb-3">Verified reviews from our customers</h1>
+     <p>For transparency and credibility we use Trustpilot to collect verified reviews from customers.</p>
+   </div>
+
+   <!-- TrustBox widget - Grid -->
+   <div
+     id="trust-grid"
+     class="trustpilot-widget col-sm-12"
+     data-locale="en-US"
+     data-template-id="539adbd6dec7e10e686debee"
+     data-businessunit-id="5989fa7f0000ff0005a86be1"
+     data-style-height="500px"
+     data-style-width="100%"
+     data-theme="light"
+     data-stars="1,2,3,4,5"
+     data-schema-type="Organization"
+   >
+     <a href="https://www.trustpilot.com/review/businessclassguru.com" target="_blank" rel="noopener">Trustpilot</a>
+   </div>
+   <!-- End TrustBox widget -->
+ </div>
+ <!-- /.row -->
+</div>
+<!-- /.container -->
+</section>
