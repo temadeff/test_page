@@ -1956,18 +1956,60 @@ footer small a:hover {
 #cityPrice .modal-body {
   background: #18262f;
 }
+#cityPrice .modal-body .air-logos img {
+  width: 100%;
+}
 #cityPrice .modal-body .flights-left-info h1 {
   color: #f0cc7f;
-  line-height: 48px !important;
-  margin-bottom: 10px !important;
+  text-transform: uppercase;
 }
 #cityPrice .modal-body .flights-left-info h3 {
   color: #fff;
-  line-height: 48px !important;
+  font-size: 56px;
+  margin-bottom: 20px !important;
+  text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+  #cityPrice .modal-body .flights-left-info h3 {
+    font-size: 46px;
+  }
+}
+@media (max-width: 991px) {
+  #cityPrice .modal-body .flights-left-info h3 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 516px) {
+  #cityPrice .modal-body .flights-left-info h3 {
+    font-size: 26px;
+  }
+}
+#cityPrice .modal-body .flights-left-info .city-price span {
+  font-size: 76px;
+  color: #f0cc7f;
+  margin-bottom: 10px !important;
+  font-weight: bold;
+  display: block;
+}
+@media (max-width: 991px) {
+  #cityPrice .modal-body .flights-left-info .city-price span {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+}
+#cityPrice .modal-body .flights-left-info .city-price-hiw {
+  margin-top: 20px;
+}
+#cityPrice .modal-body .flights-left-info .city-price-hiw h4 {
+  color: #fff;
+  text-transform: uppercase;
   margin-bottom: 20px !important;
 }
-#cityPrice .modal-body .flights-left-info .air-logos img {
-  width: 100%;
+#cityPrice .modal-body .flights-left-info .city-price-hiw span {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
 }
 #cityPrice .modal-body .flights-form {
   background: #fafbfc;
