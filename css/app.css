@@ -764,6 +764,9 @@ main #hero .flights-form .tab-content form .form-floating label {
   font-size: 18px;
   color: #6a7378;
 }
+main #hero .flights-form .tab-content form .btn-bg {
+  background: #fff;
+}
 main #hero .flights-form .tab-content form .btn-primary {
   border-radius: 0;
   background: #FF5F5F;
@@ -773,6 +776,7 @@ main #hero .flights-form .tab-content form .btn-primary {
   padding: 10px 30px;
   height: 80px;
   border: 0;
+  border-radius: 100px;
 }
 main #hero .flights-form .tab-content form .btn-add {
   background: #fff;
@@ -1911,6 +1915,9 @@ footer small a:hover {
   font-size: 18px;
   color: #6a7378;
 }
+#freeQuotes .modal-body .flights-form .tab-content form .btn-bg {
+  background: #fff;
+}
 #freeQuotes .modal-body .flights-form .tab-content form .btn-primary {
   border-radius: 0;
   background: #FF5F5F;
@@ -1920,6 +1927,7 @@ footer small a:hover {
   padding: 10px 30px;
   height: 80px;
   border: 0;
+  border-radius: 100px;
 }
 #freeQuotes .modal-body .flights-form .tab-content form small {
   display: block;
@@ -2247,6 +2255,9 @@ footer small a:hover {
   font-size: 18px;
   color: #6a7378;
 }
+#cityPrice .modal-body .flights-form .tab-content form .btn-bg {
+  background: #fff;
+}
 #cityPrice .modal-body .flights-form .tab-content form .btn-primary {
   border-radius: 0;
   background: #FF5F5F;
@@ -2256,6 +2267,7 @@ footer small a:hover {
   padding: 10px 30px;
   height: 80px;
   border: 0;
+  border-radius: 100px;
 }
 #cityPrice .modal-body .flights-form .tab-content form small {
   display: block;
