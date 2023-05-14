@@ -32,7 +32,7 @@
           <button type="button" class="btn get-a-quote" data-bs-toggle="modal" data-bs-target="#freeQuotes">Get Quote</button>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-label="navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse" id="main_nav">
@@ -77,7 +77,7 @@
             <div class="row align-items-center">
               <table class="price-table">
                 <tbody>
-                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#cityPrice">
+                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#freeQuotes">
                     <td class="flying-from">
                       <b>JFK</b>
                       <br>
@@ -97,7 +97,7 @@
                     <td class="total-btn"><button type="button" class="btn get-a-quote">$2,426</button></td>
                   </tr>
 
-                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#cityPrice">
+                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#freeQuotes">
                     <td class="flying-from">
                       <b>SFO</b>
                       <br>
@@ -117,7 +117,7 @@
                     <td class="total-btn"><button type="button" class="btn get-a-quote">$2,830</button></td>
                   </tr>
 
-                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#cityPrice">
+                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#freeQuotes">
                     <td class="flying-from">
                       <b>LAX</b>
                       <br>
@@ -137,7 +137,7 @@
                     <td class="total-btn"><button type="button" class="btn get-a-quote">$2,038</button></td>
                   </tr>
 
-                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#cityPrice">
+                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#freeQuotes">
                     <td class="flying-from">
                       <b>ORD</b>
                       <br>
@@ -157,7 +157,7 @@
                     <td class="total-btn"><button type="button" class="btn get-a-quote">$2,356</button></td>
                   </tr>
 
-                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#cityPrice">
+                  <tr class="mb-2" data-bs-toggle="modal" data-bs-target="#freeQuotes">
                     <td class="flying-from">
                       <b>IAD</b>
                       <br>
@@ -426,7 +426,7 @@
 
       </div>
 
-      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-6 g-3 air-logos order-3" data-bs-toggle="modal" data-bs-target="#cityPrice">
+      <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-6 g-3 air-logos order-3" data-bs-toggle="modal" data-bs-target="#freeQuotes">
         <div class="col">
           <img alt="Airfrance" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjExMCIgdmlld0JveD0iMCAwIDMyMCAxMTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yNzkuNjk1IDQzTDI2Ny43MDIgNjAuNjE3NEMyNjYuMTI0IDYyLjkzMzYgMjYzLjU2MiA2NS4xNjc0IDI2MC40NjkgNjUuNDA0N1Y2NS45NDYxSDI3My44MDhDMjc3LjM0OSA2NS45NDYxIDI3OS45MzIgNjMuNjA1NyAyODEuNjggNjEuMDI4TDI5My45OTUgNDNIMjc5LjY5NkgyNzkuNjk1WiIgZmlsbD0iI0YwQ0M3RiIvPgo8cGF0aCBkPSJNNTguODMxNSA2NS45NDZWNDQuOTM1NEg2NC44NjkyVjY1Ljk0Nkg1OC44M0g1OC44MzE1Wk0xOTguMDg0IDY1Ljk0NkwxODMuNTc1IDUzLjQ2OThWNjUuOTQ2SDE3OC40NzdWNDQuOTM1NEgxODIuODA4TDE5Ny4xMjMgNTcuMjE1NVY0NC45MzU0SDIwMi4yMjJWNjUuOTQ2SDE5OC4wODRaTTIyOS42MzUgNTEuNzEzNUMyMjYuOTA3IDUwLjM0OTMgMjIzLjgzMyA0OS4yNDUyIDIxOS43NTkgNDkuMjQ1MkMyMTQuODk0IDQ5LjI0NTIgMjExLjI2NiA1MS44MDAxIDIxMS4yNjYgNTUuMzUyNkMyMTEuMjY2IDU4Ljk5MTggMjE0Ljk1OSA2MS41NzA4IDIxOS43MTUgNjEuNTcwOEMyMjMuNjQzIDYxLjU3MDggMjI2Ljc1NSA2MC41NTIgMjI5LjgyNyA1OC43NTNWNjMuOTUyNEMyMjcuMTE3IDY1LjMxNjYgMjIzLjUxNCA2Ni4zMzQgMjE5LjQ2IDY2LjMzNEMyMTEuMTgyIDY2LjMzNCAyMDQuNjczIDYyLjA0NjkgMjA0LjY3MyA1NS4zNTI2QzIwNC42NzMgNDguNzY3OCAyMTEuMzA5IDQ0LjU0MzIgMjE5LjQzNyA0NC41NDMyQzIyMy4yNzggNDQuNTQzMiAyMjYuNzU1IDQ1LjI3OTMgMjI5LjYzNSA0Ni40NzI5VjUxLjcxMzVaTTk4LjQ3MTMgNjUuOTQ2VjQ0LjkzNTRIMTE4LjY1M1Y0OS40Mzk5SDEwNC41MDlWNTQuNjYwNkgxMTguMzM1VjU5LjE2NjVIMTA0LjUwOVY2NS45NDc1SDk4LjQ3MTNWNjUuOTQ2Wk0yMzMuMjg2IDY1Ljk0NlY0NC45MzU0SDI1NC4yMzVWNDkuNDM5OUgyMzkuMzIyVjUzLjA4MDVIMjU0LjAwMVY1Ny41ODVIMjM5LjMyMlY2MS40NDE1SDI1NC4xNzFWNjUuOTQ2SDIzMy4yODZaTTEzOS42MjYgNTguMDYxTDE0Ny45NjcgNjUuOTQ3NUgxNDEuNTI0QzE0MC4wOTUgNjUuOTQ3NSAxMzkuMTU3IDY1LjQ5MjggMTM4LjQwOSA2NC43NTM4TDEzMi43MzQgNTkuMTY1MUMxMzIuNjY4IDU5LjEwNTcgMTMyLjU5MSA1OS4wNTk5IDEzMi41MDcgNTkuMDMwNEMxMzIuNDIzIDU5LjAwMDkgMTMyLjMzNCA1OC45ODgyIDEzMi4yNDUgNTguOTkzMkgxMjguMzgzVjY1Ljk0NkgxMjIuMzQ1VjQ0LjkzNTRIMTM1LjQyNEMxNDIuMjA4IDQ0LjkzNTQgMTQ1LjA2NyA0OC4wMzMxIDE0NS4wNjcgNTEuNDU0OUMxNDUuMDY3IDU1LjQ0MDcgMTQxLjU2NyA1Ny4zNDQ4IDEzOS42MjYgNTguMDYyNFY1OC4wNjFaTTEzNC44MDYgNTQuNTk1MkMxMzcuMTkzIDU0LjU5NTIgMTM4LjM0NSA1My4zNjE4IDEzOC4zNDUgNTEuOTc0OUMxMzguMzQ1IDUwLjU4OCAxMzcuMzIyIDQ5LjQzOTkgMTM0LjgwNiA0OS40Mzk5SDEyOC4zODNWNTQuNTk1MkgxMzQuODA2Wk04Ny44MDI1IDU4LjA2MjRMOTYuMTQzNyA2NS45NDZIODkuNzAyNEM4OC4yNzI5IDY1Ljk0NiA4Ny4zMzM2IDY1LjQ5MTMgODYuNTg3NiA2NC43NTM4TDgwLjkxMjIgNTkuMTY1MUM4MC44NDU4IDU5LjEwNTYgODAuNzY4MyA1OS4wNTk3IDgwLjY4NDIgNTkuMDMwMkM4MC42MDAxIDU5LjAwMDcgODAuNTEwOSA1OC45ODgxIDgwLjQyMTkgNTguOTkzMkg3Ni41NjExVjY1Ljk0Nkg3MC41MjE5VjQ0LjkzNTRIODMuNjAwN0M5MC4zODQ0IDQ0LjkzNTQgOTMuMjQ0OSA0OC4wMzMxIDkzLjI0NDkgNTEuNDU0OUM5My4yNDQ5IDU1LjQ0MDcgODkuNzQ1IDU3LjM0NDggODcuODAyNSA1OC4wNjI0Wk04Mi45ODI1IDU0LjU5NTJDODUuMzcyNiA1NC41OTUyIDg2LjUyNSA1My4zNjE4IDg2LjUyNSA1MS45NzQ5Qzg2LjUyNSA1MC41ODggODUuNTAwNSA0OS40Mzk5IDgyLjk4MjUgNDkuNDM5OUg3Ni41NjExVjU0LjU5NTJIODIuOTgyNVpNNDkuMzc5MSA2NS45NDZMNDYuNzM0NiA2MS4zMzIxSDM1LjE3MjFMMzIuNzYwNyA2NS45NDZIMjdMMzguNTIxMyA0NC45NTY3SDQzLjc3MDVMNTYuODI3OSA2NS45NDZINDkuMzc5MVpNMzcuNDc1NSA1Ni45NTU1SDQ0LjIxODFMNDAuNzE4MiA1MC41NDRMMzcuNDc1NSA1Ni45NTU1Wk0xNjkuOTQzIDY1Ljk0NkwxNjcuMzYxIDYxLjMzMjFIMTU2LjA5OUwxNTMuNzczIDY1Ljk0NkgxNDguMTZMMTU5LjM4MiA0NC45NTY3SDE2NC40OEwxNzcuMTc1IDY1Ljk0NkgxNjkuOTQzWk0xNTguMzU5IDU2Ljk1NTVIMTY0LjkyOUwxNjEuNTE2IDUwLjU0NEwxNTguMzU5IDU2Ljk1NTVaIiBmaWxsPSIjRjBDQzdGIi8+Cjwvc3ZnPgo=">
         </div>
@@ -955,253 +955,7 @@
 </footer>
 
   <!-- Modal Get a Quote-->
-  <div class="modal fade" id="freeQuotes" tabindex="-1" aria-labelledby="freeQuotesLabel" aria-hidden="true">
-  <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container col-xl-12">
-          <div class="row align-items-center g-lg-5 py-5">
-
-            <h1 class="fw-bold py-2">Save 20-50% OFF retail prices GUARANTEED!</h1>
-
-            <div class="col-md-12 mx-auto p-0 col-lg-10 col-xl-8 flights-form">
-
-              <div class="px-0">
-                <h3 class="px-4">Get a FREE Quote</h3>
-              </div>
-      
-              <div class="row m-0 px-0 select-div">
-      
-                  <div class="form-floating col-4 px-0">
-                    <div class="box-select">
-                      <div class="select-box__current" tabindex="0">
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-multi-city" value="3" name="modal-way" checked="checked"/>
-                          <p class="select-box__input-text">Multi-city</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-one-way" value="2" name="modal-way" checked="checked"/>
-                          <p class="select-box__input-text">One-Way</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-round-trip" value="1" name="modal-way" checked="checked"/>
-                          <p class="select-box__input-text">Round-Trip</p>
-                        </div><img class="select-box__icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjcxOTkgMTUuNzhDMTIuNTc5MyAxNS45MjA3IDEyLjM4ODcgMTUuOTk5OCAxMi4xODk5IDE2SDExLjgwOTlDMTEuNjExNCAxNS45OTc3IDExLjQyMTYgMTUuOTE4OSAxMS4yNzk5IDE1Ljc4TDYuMTQ5ODUgMTAuNjRDNi4wNTUyIDEwLjU0NjEgNi4wMDE5NSAxMC40MTgzIDYuMDAxOTUgMTAuMjg1QzYuMDAxOTUgMTAuMTUxNyA2LjA1NTIgMTAuMDIzOSA2LjE0OTg1IDkuOTMwMDFMNi44NTk4NSA5LjIyMDAxQzYuOTUyMDIgOS4xMjU5NSA3LjA3ODE2IDkuMDcyOTQgNy4yMDk4NSA5LjA3Mjk0QzcuMzQxNTQgOS4wNzI5NCA3LjQ2NzY5IDkuMTI1OTUgNy41NTk4NSA5LjIyMDAxTDExLjk5OTkgMTMuNjdMMTYuNDM5OSA5LjIyMDAxQzE2LjUzMzcgOS4xMjUzNiAxNi42NjE1IDkuMDcyMTEgMTYuNzk0OSA5LjA3MjExQzE2LjkyODIgOS4wNzIxMSAxNy4wNTYgOS4xMjUzNiAxNy4xNDk5IDkuMjIwMDFMMTcuODQ5OSA5LjkzMDAxQzE3Ljk0NDUgMTAuMDIzOSAxNy45OTc4IDEwLjE1MTcgMTcuOTk3OCAxMC4yODVDMTcuOTk3OCAxMC40MTgzIDE3Ljk0NDUgMTAuNTQ2MSAxNy44NDk5IDEwLjY0TDEyLjcxOTkgMTUuNzhaIiBmaWxsPSIjMTgyNjJGIi8+Cjwvc3ZnPgo=" alt="Arrow Icon" aria-hidden="true"/>
-                      </div>
-                      <ul class="select-box__list">
-                        <li>
-                          <label class="select-box__option" for="modal-round-trip" aria-hidden="aria-hidden">Round-Trip</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-one-way" aria-hidden="aria-hidden">One-Way</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-multi-city" aria-hidden="aria-hidden">Multi-city</label>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-      
-                  <div class="form-floating col-4 px-0">
-                    <div class="select-box">
-                      <div class="select-box__current" tabindex="0">
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-economy" value="4" name="modal-Class" checked="checked"/>
-                          <p class="select-box__input-text">Economy Class</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-premium" value="3" name="modal-Class" checked="checked"/>
-                          <p class="select-box__input-text">Premium Economy</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-first" value="2" name="modal-Class" checked="checked"/>
-                          <p class="select-box__input-text">First Class</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-business" value="1" name="modal-Class" checked="checked"/>
-                          <p class="select-box__input-text">Business Class</p>
-                        </div><img class="select-box__icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjcxOTkgMTUuNzhDMTIuNTc5MyAxNS45MjA3IDEyLjM4ODcgMTUuOTk5OCAxMi4xODk5IDE2SDExLjgwOTlDMTEuNjExNCAxNS45OTc3IDExLjQyMTYgMTUuOTE4OSAxMS4yNzk5IDE1Ljc4TDYuMTQ5ODUgMTAuNjRDNi4wNTUyIDEwLjU0NjEgNi4wMDE5NSAxMC40MTgzIDYuMDAxOTUgMTAuMjg1QzYuMDAxOTUgMTAuMTUxNyA2LjA1NTIgMTAuMDIzOSA2LjE0OTg1IDkuOTMwMDFMNi44NTk4NSA5LjIyMDAxQzYuOTUyMDIgOS4xMjU5NSA3LjA3ODE2IDkuMDcyOTQgNy4yMDk4NSA5LjA3Mjk0QzcuMzQxNTQgOS4wNzI5NCA3LjQ2NzY5IDkuMTI1OTUgNy41NTk4NSA5LjIyMDAxTDExLjk5OTkgMTMuNjdMMTYuNDM5OSA5LjIyMDAxQzE2LjUzMzcgOS4xMjUzNiAxNi42NjE1IDkuMDcyMTEgMTYuNzk0OSA5LjA3MjExQzE2LjkyODIgOS4wNzIxMSAxNy4wNTYgOS4xMjUzNiAxNy4xNDk5IDkuMjIwMDFMMTcuODQ5OSA5LjkzMDAxQzE3Ljk0NDUgMTAuMDIzOSAxNy45OTc4IDEwLjE1MTcgMTcuOTk3OCAxMC4yODVDMTcuOTk3OCAxMC40MTgzIDE3Ljk0NDUgMTAuNTQ2MSAxNy44NDk5IDEwLjY0TDEyLjcxOTkgMTUuNzhaIiBmaWxsPSIjMTgyNjJGIi8+Cjwvc3ZnPgo=" alt="Arrow Icon" aria-hidden="true"/>
-                      </div>
-                      <ul class="select-box__list">
-                        <li>
-                          <label class="select-box__option" for="modal-business" aria-hidden="aria-hidden">Business Class</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-first" aria-hidden="aria-hidden">First Class</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-premium" aria-hidden="aria-hidden">Premium Economy</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-economy" aria-hidden="aria-hidden">Economy Class</label>
-                        </li>
-              
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="form-floating col-4 px-0">
-                    <div class="select-box">
-                      <div class="select-box__current" tabindex="0">
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-0" value="1" name="modal-Ben" checked="checked">
-                          <p class="select-box__input-text">1 Traveler</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-1" value="2" name="modal-Ben">
-                          <p class="select-box__input-text">2 Travelers</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-2" value="3" name="modal-Ben">
-                          <p class="select-box__input-text">3 Travelers</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-3" value="4" name="modal-Ben">
-                          <p class="select-box__input-text">4 Travelers</p>
-                        </div>
-                        <div class="select-box__value">
-                          <input class="select-box__input" type="radio" id="modal-4" value="5" name="modal-Ben">
-                          <p class="select-box__input-text">5 Travelers</p>
-                        </div><img class="select-box__icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjcxOTkgMTUuNzhDMTIuNTc5MyAxNS45MjA3IDEyLjM4ODcgMTUuOTk5OCAxMi4xODk5IDE2SDExLjgwOTlDMTEuNjExNCAxNS45OTc3IDExLjQyMTYgMTUuOTE4OSAxMS4yNzk5IDE1Ljc4TDYuMTQ5ODUgMTAuNjRDNi4wNTUyIDEwLjU0NjEgNi4wMDE5NSAxMC40MTgzIDYuMDAxOTUgMTAuMjg1QzYuMDAxOTUgMTAuMTUxNyA2LjA1NTIgMTAuMDIzOSA2LjE0OTg1IDkuOTMwMDFMNi44NTk4NSA5LjIyMDAxQzYuOTUyMDIgOS4xMjU5NSA3LjA3ODE2IDkuMDcyOTQgNy4yMDk4NSA5LjA3Mjk0QzcuMzQxNTQgOS4wNzI5NCA3LjQ2NzY5IDkuMTI1OTUgNy41NTk4NSA5LjIyMDAxTDExLjk5OTkgMTMuNjdMMTYuNDM5OSA5LjIyMDAxQzE2LjUzMzcgOS4xMjUzNiAxNi42NjE1IDkuMDcyMTEgMTYuNzk0OSA5LjA3MjExQzE2LjkyODIgOS4wNzIxMSAxNy4wNTYgOS4xMjUzNiAxNy4xNDk5IDkuMjIwMDFMMTcuODQ5OSA5LjkzMDAxQzE3Ljk0NDUgMTAuMDIzOSAxNy45OTc4IDEwLjE1MTcgMTcuOTk3OCAxMC4yODVDMTcuOTk3OCAxMC40MTgzIDE3Ljk0NDUgMTAuNTQ2MSAxNy44NDk5IDEwLjY0TDEyLjcxOTkgMTUuNzhaIiBmaWxsPSIjMTgyNjJGIi8+Cjwvc3ZnPgo=" alt="Arrow Icon" aria-hidden="true"/>
-                      </div>
-                      <ul class="select-box__list">
-                        <li>
-                          <label class="select-box__option" for="modal-0" aria-hidden="aria-hidden">1 Traveler</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-1" aria-hidden="aria-hidden">2 Travelers</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-2" aria-hidden="aria-hidden">3 Travelers</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-3" aria-hidden="aria-hidden">4 Travelers</label>
-                        </li>
-                        <li>
-                          <label class="select-box__option" for="modal-4" aria-hidden="aria-hidden">5 Travelers</label>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-      
-              </div>
-      
-              <div class="tab-content p-0" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-round-trip" role="tabpanel" aria-labelledby="pills-round-trip-tab">
-                  <form class="">
-                    <div class="input-daterange mb-0 input-group" id="flights">
-                      <div class="form-floating col-6 px-0">
-                        <input type="text" class="form-control" id="flyingFrom" placeholder="Flying from?">
-                        <label for="flyingFrom" class="icon-departure">Flying from?</label>
-                      </div>
-                      <div class="form-floating col-6 px-0">
-                        <input type="text" class="form-control" id="flyingTo" placeholder="Flying to?">
-                        <label for="flyingTo" class="icon-arrival">Flying to?</label>
-                      </div>
-                    </div>
-      
-                    <div class="input-daterange mb-0 input-group" id="flight-datepicker">
-                      <div class="form-floating col-6 px-0 form-item">
-                        <input class="input-sm form-control" type="text" id="start-date" name="start" placeholder="Select depart date" data-date-format="DD, MM d">
-                        <label for="start-date" class="icon-depart">Depart</label>
-                      </div>
-                      <div class="form-floating col-6 px-0 form-item">
-                        <input class="input-sm form-control" type="text" id="end-date" name="end" placeholder="Select return date" data-date-format="DD, MM d">
-                        <label for="end-date" class="icon-return">Return</label>
-                      </div>
-                    </div>
-      
-                  </form>
-                </div>
-      
-      
-                <div class="tab-pane fade" id="pills-one-way" role="tabpanel" aria-labelledby="pills-one-way-tab">
-                  ...
-                </div>
-                
-                <div class="tab-pane fade" id="pills-multi-city" role="tabpanel" aria-labelledby="pills-multi-city-tab">
-                  ...
-                </div>
-      
-                <form class="px-0 ">
-                  <div class="input-daterange mb-0 input-group" id="flights">
-                    <div class="form-floating col-6 px-0">
-                      <div class="form-floating mb-0">
-                        <input type="text" class="form-control" id="floatingInputName" placeholder="Name">
-                        <label for="floatingInputName" class="icon-name">Name</label>
-                      </div>
-                    </div>
-                    <div class="form-floating col-6 px-0">
-                      <div class="form-floating mb-0">
-                        <input type="text" class="form-control" id="floatingInputPhone" placeholder="Phone">
-                        <label for="floatingInputPhone">Phone</label>
-                      </div>
-                    </div>
-                  </div>
-               
-                  <div class="form-floating mb-0">
-                    <input type="email" class="form-control" id="floatingInputEmail" placeholder="name@example.com">
-                    <label for="floatingInputEmail" class="icon-email">Email</label>
-                  </div>
-      
-                  <div class="p-3 btn-bg">
-                    <button class="w-100 btn btn-lg btn-primary" type="submit">Send Me Quotes</button>
-                  </div>
-                  
-                </form>
-      
-              </div>
-      
-            </div>
-
-            <small>We value your privacy </small>
-
-          </div>
-
-          <div class="row justify-content-center px-2 py-5 hiw-small">
-
-            <h1 class="fw-bold lh-1 mb-3 py-2">How it works?</h1>
-
-            <div class="col-lg-4 col-md-4 d-flex justify-content-center pb-4">
-              <div class="icon-box icon-box-line">
-                <div class="icon">
-                  <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0IDQ0LjgxMjVDMzUuNDk0NCA0NC44MTI1IDQ0LjgxMjUgMzUuNDk0NCA0NC44MTI1IDI0QzQ0LjgxMjUgMTIuNTA1NiAzNS40OTQ0IDMuMTg3NSAyNCAzLjE4NzVDMTIuNTA1NiAzLjE4NzUgMy4xODc1IDEyLjUwNTYgMy4xODc1IDI0QzMuMTg3NSAzNS40OTQ0IDEyLjUwNTYgNDQuODEyNSAyNCA0NC44MTI1WiIgc3Ryb2tlPSIjRjBDQzdGIiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTI2LjQ5MzYgMzMuOTM3NVYxMy44NzM3SDI2LjA2NzlMMTguMjY3NiAxNi43NDM5VjE5LjU1OTFMMjMuMTcwMiAxNy44ODM3VjMzLjkzNzVIMjYuNDkzNloiIGZpbGw9IiNGMENDN0YiLz4KPC9zdmc+Cg==" alt="01">
-                </div>
-                <p>Request a Quote</p>
-              </div>
-            </div>
-      
-            <div class="col-lg-4 col-md-4 d-flex justify-content-center pb-4">
-              <div class="icon-box icon-box-line">
-                <div class="icon">
-                  <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0IDQ0LjgxMjVDMzUuNDk0NCA0NC44MTI1IDQ0LjgxMjUgMzUuNDk0NCA0NC44MTI1IDI0QzQ0LjgxMjUgMTIuNTA1NiAzNS40OTQ0IDMuMTg3NSAyNCAzLjE4NzVDMTIuNTA1NiAzLjE4NzUgMy4xODc1IDEyLjUwNTYgMy4xODc1IDI0QzMuMTg3NSAzNS40OTQ0IDEyLjUwNTYgNDQuODEyNSAyNCA0NC44MTI1WiIgc3Ryb2tlPSIjRjBDQzdGIiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTMwLjkwMTggMzMuOTM3NVYzMS4yNzMzSDIxLjYxODNMMjYuNTA3MyAyNi4wNDExQzI3Ljc4OSAyNC42NDk1IDI4LjcxMTQgMjMuNDA2NiAyOS4yNzQ0IDIyLjMxMjZDMjkuODM3NSAyMS4yMTg1IDMwLjExOSAyMC4xNzI1IDMwLjExOSAxOS4xNzQ2QzMwLjExOSAxNy40NTM0IDI5LjU1ODMgMTYuMTA1MyAyOC40MzY3IDE1LjEzMDNDMjcuMzE1MiAxNC4xNTUyIDI1Ljc4NCAxMy42Njc3IDIzLjg0MzEgMTMuNjY3N0MyMi40OTczIDEzLjY2NzcgMjEuMzA5NCAxMy45Mzc4IDIwLjI3OTQgMTQuNDc4QzE5LjI0OTQgMTUuMDE4MSAxOC40NTc1IDE1Ljc3NTcgMTcuOTAzNiAxNi43NTA4QzE3LjM0OTcgMTcuNzI1OCAxNy4wNzI4IDE4LjgyMjEgMTcuMDcyOCAyMC4wMzk4SDIwLjQwOTlDMjAuNDA5OSAxOC44OTU0IDIwLjcwNzQgMTcuOTkzNiAyMS4zMDI1IDE3LjMzNDRDMjEuODk3NiAxNi42NzUyIDIyLjczNTMgMTYuMzQ1NiAyMy44MTU2IDE2LjM0NTZDMjQuNzIyIDE2LjM0NTYgMjUuNDQzIDE2LjYzODYgMjUuOTc4NSAxNy4yMjQ1QzI2LjUxNDEgMTcuODEwNSAyNi43ODE5IDE4LjU3OTUgMjYuNzgxOSAxOS41MzE3QzI2Ljc4MTkgMjAuMjU0OSAyNi41NzgyIDIwLjk3NTkgMjYuMTcwOCAyMS42OTQ2QzI1Ljc2MzQgMjIuNDEzMyAyNS4wNzkgMjMuMzA4MiAyNC4xMTc3IDI0LjM3OTRMMTcuNDU3MyAzMS42NDQxVjMzLjkzNzVIMzAuOTAxOFoiIGZpbGw9IiNGMENDN0YiLz4KPC9zdmc+Cg==" alt="02">
-                </div>
-                <p>Review Flight Options </p>
-              </div>
-            </div>
-      
-            <div class="col-lg-4 col-md-4 d-flex justify-content-center pb-4">
-              <div class="icon-box">
-                <div class="icon">
-                  <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0IDQ0LjgxMjVDMzUuNDk0NCA0NC44MTI1IDQ0LjgxMjUgMzUuNDk0NCA0NC44MTI1IDI0QzQ0LjgxMjUgMTIuNTA1NiAzNS40OTQ0IDMuMTg3NSAyNCAzLjE4NzVDMTIuNTA1NiAzLjE4NzUgMy4xODc1IDEyLjUwNTYgMy4xODc1IDI0QzMuMTg3NSAzNS40OTQ0IDEyLjUwNTYgNDQuODEyNSAyNCA0NC44MTI1WiIgc3Ryb2tlPSIjRjBDQzdGIiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTIzLjYwOTcgMzQuMjEyMkMyNS42MTQ3IDM0LjIxMjIgMjcuMjMyOSAzMy42ODEyIDI4LjQ2NDMgMzIuNjE5MUMyOS42OTU3IDMxLjU1NzEgMzAuMzExNCAzMC4xMjg5IDMwLjMxMTQgMjguMzM0NUMzMC4zMTE0IDI3LjIxNzUgMzAuMDI1MyAyNi4yNTYyIDI5LjQ1MzEgMjUuNDUwNkMyOC44ODA5IDI0LjY0NDkgMjguMDQ1NSAyNC4wNTQ0IDI2Ljk0NjggMjMuNjc5QzI3Ljg1MzIgMjMuMjc2MiAyOC41OTI1IDIyLjY3ODggMjkuMTY0NyAyMS44ODY5QzI5LjczNjkgMjEuMDk0OSAzMC4wMjMgMjAuMjUwNCAzMC4wMjMgMTkuMzUzMUMzMC4wMjMgMTcuNTY3OSAyOS40NTMxIDE2LjE3NCAyOC4zMTMzIDE1LjE3MTVDMjcuMTczNCAxNC4xNjkgMjUuNjA1NiAxMy42Njc3IDIzLjYwOTcgMTMuNjY3N0MyMi40MDEyIDEzLjY2NzcgMjEuMzA5NSAxMy45MDM1IDIwLjMzNDQgMTQuMzc1QzE5LjM1OTQgMTQuODQ2NSAxOC41OTk1IDE1LjUwMzQgMTguMDU0OCAxNi4zNDU2QzE3LjUxIDE3LjE4NzkgMTcuMjM3NyAxOC4xMjE4IDE3LjIzNzcgMTkuMTQ3MkgyMC41NzQ4QzIwLjU3NDggMTguMzE0IDIwLjg2MzIgMTcuNjM4OCAyMS40Mzk5IDE3LjEyMTZDMjIuMDE2NyAxNi42MDQzIDIyLjc1MzcgMTYuMzQ1NiAyMy42NTA5IDE2LjM0NTZDMjQuNjc2MyAxNi4zNDU2IDI1LjQzODUgMTYuNjA4OSAyNS45Mzc1IDE3LjEzNTNDMjYuNDM2NCAxNy42NjE3IDI2LjY4NTkgMTguNDAxIDI2LjY4NTkgMTkuMzUzMUMyNi42ODU5IDIwLjM0MTkgMjYuMzg2MSAyMS4wOTcyIDI1Ljc4NjQgMjEuNjE5MUMyNS4xODY3IDIyLjE0MDkgMjQuMzc0MiAyMi40MDY0IDIzLjM0ODggMjIuNDE1NkgyMS4zMTYzVjI1LjA1MjNIMjMuMjgwMkMyNC41MDcgMjUuMDUyMyAyNS40MzE2IDI1LjMzNjEgMjYuMDU0MiAyNS45MDM3QzI2LjY3NjggMjYuNDcxNCAyNi45ODggMjcuMjgxNiAyNi45ODggMjguMzM0NUMyNi45ODggMjkuMzc4MiAyNi42OTA1IDMwLjE3NDcgMjYuMDk1NCAzMC43MjRDMjUuNTAwMyAzMS4yNzMzIDI0LjY4NTUgMzEuNTQ4IDIzLjY1MDkgMzEuNTQ4QzIyLjY1MyAzMS41NDggMjEuODU4OCAzMS4yNzMzIDIxLjI2ODMgMzAuNzI0QzIwLjY3NzggMzAuMTc0NyAyMC4zODI1IDI5LjQ2MDYgMjAuMzgyNSAyOC41ODE3SDE3LjA0NTRDMTcuMDQ1NCAzMC4yODQ1IDE3LjY1ODggMzEuNjQ4NyAxOC44ODU2IDMyLjY3NDFDMjAuMTEyNCAzMy42OTk1IDIxLjY4NzEgMzQuMjEyMiAyMy42MDk3IDM0LjIxMjJaIiBmaWxsPSIjRjBDQzdGIi8+Cjwvc3ZnPgo=" alt="03">
-                </div>
-                <p>Book and Save</p>
-              </div>
-            </div>
-      
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-  <!-- Modal City Price -->
-  <div class="modal fade" id="cityPrice" tabindex="-1" aria-labelledby="cityPriceLabel" aria-hidden="true">
+  <div class="modal fade" id="freeQuotes" tabindex="-1" aria-labelledby="freeQuotes" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
